@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+html{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+}
+
 /* Header Styles */
 
 #logo{
@@ -33,7 +41,8 @@ header#universalNAV{
     flex: 1 1 11.5%;
     max-width: 11.5%;
     width: 11.5%;
-    max-height: 100%;
+    max-height: 99%;
+    height: 99%;
     box-shadow: white 0px 0px 20px 10px;
 }
 
@@ -50,7 +59,8 @@ aside#rightside{
     -webkit-display: flex;
     flex: 1 1 88.5%;
     max-width: 88.5%;
-    max-height: 100%;
+    max-height: 99%;
+    height: 99%;
     flex-flow: row wrap;
 }
 aside#rightside{
@@ -77,3 +87,12 @@ aside#rightside::after{
 
 /* Footer Styles */
 
+footer{
+    order: 100;
+    position: fixed;
+    max-height: 1%;
+    height: 1%;
+    width:100%;
+    max-width:100%;
+    text-align: center;
+}
