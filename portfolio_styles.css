@@ -58,8 +58,9 @@ aside#rightside{
     position: right;
     display: flex;
     -webkit-display: flex;
-    flex: 1 1 88.5%;
-    max-width: 88.5%;
+    flex: 1 1 80%;
+    max-width: 80%;
+    width: 80%
     max-height: 90%;
     height: 90%;
     flex-flow: row wrap;
@@ -75,13 +76,11 @@ aside#rightside::after{
 	display: table;
 }
 
-/* Paragraph Header Styles */
+/* Paragraph and Header Styles */
 
-
-
-/* Paragraph Styles */
-
-
+h1, p{
+    font-size: 3em;
+}
 
 /* Image Styles */
 
