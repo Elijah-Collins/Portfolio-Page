@@ -39,8 +39,8 @@ header#universalNAV{
     position: left;
     flex-flow: column nowrap;
     flex: 1 1 11.5%;
-    max-width: 14.5%;
-    width: 14.5%;
+    max-width: 8.5%;
+    width: 8.5%;
     max-height: 90%;
     height: 90%;
     box-shadow: white 0px 0px 20px 10px;
