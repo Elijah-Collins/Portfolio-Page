@@ -80,6 +80,7 @@ aside#rightside::after{
 
 h1{
     text-align: center;
+    font-family: neonfont;
 }
 p{
     text-align: center;
@@ -87,10 +88,20 @@ p{
 
 /* Paragraph and Header Styles */
 
-h1, p{
-    font-size: 2.8em;
+h1{
+    font-size: 2.9em;
+}
+p{
+    font-size: 2.5em;
 }
 
 /* Image Styles */
 
 
+
+/* Font Styles */
+
+@font-face{
+    font-family: neonfont;
+    src: url(neonfont.otf);
+}
