@@ -97,7 +97,9 @@ p{
 
 /* Image Styles */
 
-
+img{
+    padding: auto;
+}
 
 /* Font Styles */
 
